@@ -1,0 +1,47 @@
+.App h1 {
+    font-size:45px ;
+}
+.App {
+    text-align: center;
+}
+.App input[type="text"] {
+    padding: 5px;
+    text-align: center;
+}
+.App button {
+    margin-left: 5px;
+    padding: 5px 20px;
+}
+table{
+    width: 60%;
+    margin: auto;
+} 
+.contenedor  input[type="text"] {
+    width: 80%;
+    /* margin: 0 10px; */
+    border: none;
+    border-radius: 15px;
+    
+}
+.contenedor  input[type="checkbox"] {
+    margin: 0;
+    width: 30px;
+} 
+.didnt {
+    background: rgb(241 120 120 / 55%);
+}
+.done{
+    background: rgba(35, 188, 86, 0.55);
+}
+.inputReadOnly {
+    pointer-events: none;
+}
+.inputEditable {
+    pointer-events: initial;
+}
+.delete {
+    display: none;
+}
+.noDelete {
+    display: table-row;
+}
